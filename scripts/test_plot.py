@@ -44,6 +44,5 @@ class TestEnergyPlot(unittest.TestCase):
         for source in self.df_melted['Source'].unique():
             self.assertIn(source, allowed_names)
 
-
 if __name__ == "__main__":
     unittest.main()
