@@ -1,6 +1,6 @@
 import os
 import unittest
-from Scripts.energy_plot import load_energy_data, prepare_energy_frames, create_area_plot
+from scripts.energy_plot import load_energy_data, prepare_energy_frames, create_area_plot
 
 
 class TestEnergyPlot(unittest.TestCase):
@@ -8,7 +8,7 @@ class TestEnergyPlot(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         base_dir = os.path.dirname(os.path.abspath(__file__))
-        data_path = os.path.join(base_dir, "..", "Data", "energy_consumption_by_source_europe.csv")
+        data_path = os.path.join(base_dir, "..", "data", "energy_consumption_by_source_europe.csv")
 
         df = load_energy_data(data_path)
         (

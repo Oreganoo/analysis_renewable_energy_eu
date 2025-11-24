@@ -8,7 +8,7 @@ for col in ['Entity', 'Code']:
     df[col] = df[col].replace('<null>', 'unknown')
     df[col] = df[col].fillna('unknown')
 
-output_file = "../Data/energy_consumption_by_source_europe.csv"
+output_file = "../data/energy_consumption_by_source_europe.csv"
 df.to_csv(output_file, index=False)
 print(f"Data saved to {output_file}")
 
