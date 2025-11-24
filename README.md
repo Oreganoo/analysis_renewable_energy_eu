@@ -7,7 +7,6 @@ This project investigates long-term trends in Europe’s energy landscape, with 
 * Highlights
 * Technologies I Used
 * What I implemented
-* Requirements
 * Python Version and Library Dependencies
 * Energy Consumption by Source: Dataset Overview (energy_consumption_by_source_in_europe.ipynb)
   * Methodology
@@ -44,16 +43,11 @@ Here are some key findings from the analysis:
 * Automated dataset cleaning for CSV extraction
 * Unittests to assure structural correctness
 
-### Requirements !!!!!!!!!!!
-* Python
-* pandas
-* plotly
-* unittest
-* os
-
 ### Python Version and Library Dependencies
 * Python (3.13)
-* plotly==6.4.0
 * pandas==2.3.3
+* plotly==6.5.0
+* notebook==7.5.0
+* matplotlib==3.10.7
 
 
