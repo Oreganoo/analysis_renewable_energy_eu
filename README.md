@@ -14,7 +14,7 @@ This project investigates long-term trends in Europe’s energy landscape, with 
   * Key Turning Points and Trends Across Six Decades
   * Additional Observations
   * Sources
-  * Future of Renewable energy industry
+  * Future of Renewable Energy Industry
 
 ### Goals
 The objective of this project is to strengthen my skills in Python, Jupyter Notebook, and data handling with CSV files by working through a real-world dataset.
