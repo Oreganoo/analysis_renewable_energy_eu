@@ -3,7 +3,8 @@
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
-
+#Pycharm directories
 /.idea/
-/.venv/
 /.idea/inspectionProfiles/
+#Python venv
+/.venv/
